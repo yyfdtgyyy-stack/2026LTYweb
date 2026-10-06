@@ -1,0 +1,80 @@
+body{
+margin:50px;
+background:linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255, 0.8)),
+url("image/silla2.jpg") center / cover fixed ;
+}
+
+.page-wrap{
+width: min(1100px, 92%);
+margin: 42px auto;
+background: rgba(255, 255, 255, 0.96);
+border-radius: 18px;
+box-shadow: 0 18px 50px rgba(29, 52, 82, 0.18);
+overflow: hidden;
+}
+
+/*네비게이션 메뉴 부분 */
+.navigation {
+display: flex;
+justify-content: center;
+padding: 30px;
+background:#225599;
+border-bottom: 4px solid #ff6;
+text-align: center;
+}
+
+.navigation a {
+display: inline-block;
+margin: 0;
+padding: 0px 20px;
+color: #ffffff;
+font-size: 14px
+font-weight: bold;
+letter-spacing: 1px;
+text-decoration: none;
+}
+
+.navigation a:hover {color: #36f; background: #fc9; text-decoration: none; }
+.navigation a:hover {color: #fff; background: #b72; }
+
+
+
+/* 메인 컨텐츠 */
+.content {width: min(900px, 88%); margin:0 auto; padding: 55px 20px 65px;
+text-align: center;}
+
+
+h1{
+color:#966;
+font-size:30px;
+}
+
+/*하단 카피라이트*/
+.copyright {padding: 22px 20px;  border-top: 1px solid rgba(255,255,255,0.12);
+background: #255; color: #aaa; font-size: 13px;
+text-align: center; letter-spacing: 1px;
+}
+
+
+
+
+a{
+color:#666;
+font-size:20;
+margin:20px;
+text-decoration:none;
+font-weight:bold;
+}
+
+a:hover{
+color:#000;
+text-decoration-line:underline;
+}
+
+a:active{
+color:red;
+}
+
+body{
+margin:20px;
+}
